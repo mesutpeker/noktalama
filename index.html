@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazım Kuralları Oyunu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yazım Kuralları Oyunu</h1>
+            <div class="toolbar">
+                <button id="addSentence" class="tool-btn">
+                    <span class="material-icons">add</span>
+                    Cümle Ekle
+                </button>
+                <button id="editSentence" class="tool-btn">
+                    <span class="material-icons">edit</span>
+                    Cümle Düzenle
+                </button>
+                <button id="importSentences" class="tool-btn">
+                    <span class="material-icons">upload</span>
+                    İçe Aktar
+                </button>
+                <button id="exportSentences" class="tool-btn">
+                    <span class="material-icons">download</span>
+                    Dışa Aktar
+                </button>
+            </div>
+        </header>
+
+        <div class="sentence-container">
+            <p class="sentence"></p>
+        </div>
+
+        <div class="navigation">
+            <button class="nav-btn prev-btn">
+                <span class="material-icons">arrow_back</span>
+            </button>
+            <span class="progress">1/5</span>
+            <button class="nav-btn next-btn">
+                <span class="material-icons">arrow_forward</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Punctuation Selection Popup -->
+    <div id="popupOverlay" class="modal">
+        <div class="modal-content">
+            <h2>Noktalama İşareti Seçin</h2>
+            <div class="punctuation-buttons"></div>
+            <button class="close-btn">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Sentence Modal -->
+    <div id="sentenceModal" class="modal">
+        <div class="modal-content">
+            <h2>Cümle Ekle/Düzenle</h2>
+            <div class="form-group">
+                <label for="sentenceInput">Cümle:</label>
+                <input type="text" id="sentenceInput" placeholder="Cümleyi yazın...">
+            </div>
+            <div class="form-group">
+                <label>Noktalama İşaretleri:</label>
+                <div class="punctuation-inputs"></div>
+                <button class="add-punctuation-btn">
+                    <span class="material-icons">add</span>
+                    Noktalama İşareti Ekle
+                </button>
+            </div>
+            <div class="modal-buttons">
+                <button id="saveSentence" class="save-btn">Kaydet</button>
+                <button class="close-btn">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden file input for import -->
+    <input type="file" id="fileInput" accept=".json" style="display: none">
+
+    <script src="script.js"></script>
+</body>
+</html>

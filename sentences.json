@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "text": ["Ne", "kadar", "da", "tatlı", "güzel", "sakin", "bir", "kediydi"],
+      "punctuations": [
+        { "position": 3, "correct": "," },
+        { "position": 4, "correct": "," },
+        { "position": 7, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Çocukları", "çok", "severim", "keyifle", "oyun", "oynarım"],
+      "punctuations": [
+        { "position": 2, "correct": "," },
+        { "position": 5, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Eski", "evimizi", "çocukluğumu", "yaşadığım", "yeri", "çok", "özledim"],
+      "punctuations": [
+        { "position": 1, "correct": "," },
+        { "position": 4, "correct": "," },
+        { "position": 6, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Bundan", "sonra", "seninle", "görüşmek", "istemiyorum", "dedi"],
+      "punctuations": [
+        { "position": 4, "correct": "," },
+        { "position": 5, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Mutluluktan", "heyecandan", "durduğum", "yerde", "duramıyor", "bağırmak", "zıplamak", "istiyorum"],
+      "punctuations": [
+        { "position": 0, "correct": "," },
+        { "position": 4, "correct": ";" },
+        { "position": 6, "correct": "," },
+        { "position": 7, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Bölgede", "yetişen", "tarım", "ürünlerinden", "bazıları", "şunlardır", "buğday", "pamuk", "zeytin"],
+      "punctuations": [
+        { "position": 5, "correct": ":" },
+        { "position": 6, "correct": "," },
+        { "position": 7, "correct": "," },
+        { "position": 8, "correct": "…" }
+      ]
+    },
+    {
+      "text": ["Sürekli", "aynı", "cümleyi", "tekrarlardı", "Dün", "dündür", "bugün", "bugündür"],
+      "punctuations": [
+        { "position": 3, "correct": ":" },
+        { "position": 5, "correct": "," },
+        { "position": 7, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Saat", "kaçta", "geleceksin", "nasıl", "giyinmeliyim"],
+      "punctuations": [
+        { "position": 2, "correct": "," },
+        { "position": 4, "correct": "?" }
+      ]
+    },
+    {
+      "text": ["Bugün", "hava", "çok", "güzeldi", "peki", "yarın", "nasıl", "olacak", "yağmur", "mu", "yağacak"],
+      "punctuations": [
+        { "position": 3, "correct": ";" },
+        { "position": 7, "correct": "," },
+        { "position": 10, "correct": "?" }
+      ]
+    },
+    {
+      "text": ["Kitabın", "son", "sayfasında", "şu", "yazıyordu", "Seni", "her", "zaman", "seveceğim"],
+      "punctuations": [
+        { "position": 4, "correct": ":" },
+        { "position": 5, "correct": "\"" },
+        { "position": 8, "correct": "...\"" }
+      ]
+    },
+    {
+      "text": ["Bu", "iş", "gerçekten", "bitti", "mi", "yoksa", "hâlâ", "sorunlar", "mı", "var"],
+      "punctuations": [
+        { "position": 4, "correct": "," },
+        { "position": 9, "correct": "?" }
+      ]
+    },
+    {
+      "text": ["Hey", "Sen", "nereye", "gidiyorsun", "dur", "biraz"],
+      "punctuations": [
+        { "position": 0, "correct": "!" },
+        { "position": 3, "correct": "," },
+        { "position": 5, "correct": "!" }
+      ]
+    },
+    {
+      "text": ["Sen", "kimsin", "diye", "sordu", "uzanan", "eli", "sıkarken"],
+      "punctuations": [
+        { "position": 1, "correct": "?" },
+        { "position": 3, "correct": "," },
+        { "position": 6, "correct": "." }
+      ]
+    },
+    {
+      "text": ["Üsküdar'dan", "mı", "Hisar'dan", "mı", "Kavaklar'dan", "mı"],
+      "punctuations": [
+        { "position": 1, "correct": "," },
+        { "position": 3, "correct": "," },
+        { "position": 5, "correct": "?" }
+      ]
+    },
+    {
+      "text": ["At", "ölür", "meydan", "kalır", "yiğit", "ölür", "şan", "kalır"],
+      "punctuations": [
+        { "position": 1, "correct": "," },
+        { "position": 3, "correct": ";" },
+        { "position": 5, "correct": "," },
+        { "position": 7, "correct": "." }
+      ]
+    }
+  ]
+}
